@@ -5,23 +5,28 @@ const experiences = [
     company: "CodeAlpha",
     logo: "/codealpha.png",
     role: "Fullstack Developer intern",
-    period: "may 2025",
+    period: "May 01 – May 30 2025",
     details: [
       "Developed scalable e-commerce platforms with secure payment gateways and real-time inventory management (React, Node, Supabase).",
       "Engineered user-focused social media platforms featuring messaging, post sharing, and notification systems.",
       "Built collaborative project management tools supporting task tracking, team roles, and automated workflow integrations.",
     ],
   },
-  // {
-  //   company: "HealthTech Labs",
-  //   logo: "/healthtech-labs-logo.png",
-  //   role: "Junior Developer",
-  //   period: "2023 - 2024",
-  //   details: [
-  //     "Improved app performance by 40%",
-  //     "Collaborated on database refactor and migration",
-  //   ],
-  // },
+  {
+    company: "JSpiders Rajajinagar ",
+    logo: "/jsp.jpeg",
+    role: "Java Full Stack Developer Intern",
+    period: "Present",
+    details: [
+      "Currently undergoing training in Java Full Stack Development ",
+"	Gaining hands-on experience in Core Java, JDBC, Servlets, and Spring Framework ",
+"Working with HTML, CSS, JavaScript, and React.js for frontend development",
+"Learning database integration using MySQL and PostgreSQL ",
+"Developing real-time applications and improving problem-solving and coding skills ",
+"Collaborating on mini-projects and assignments to strengthen full stack development knowledge "
+
+    ],
+  },
 ];
 
 export default function Experience() {

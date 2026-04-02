@@ -101,7 +101,7 @@ export default function Home() {
             Hey, I'm <span className="text-teal-400">Ramchandra</span>!
           </h1>
           <p className={`text-xl md:text-2xl mb-8 max-w-2xl ${darkMode ? "text-gray-300" : "text-gray-800"} animate-fade-in animation-delay-400`}>
-            Passionate developer with a love for building creative, scalable solutions. <span className="text-teal-200">Fullstack wizard</span> and lifelong learner bringing energy to every project.<br />
+            Passionate developer with a love for building creative, scalable solutions. <span className="text-teal-200">Fullstack wizard</span> and lifelong learner bringing energy to every project ,
             Always striving for flawless user experiences.
           </p>
         </div>

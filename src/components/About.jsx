@@ -15,7 +15,7 @@ export default function About() {
         I love collaborating and bringing ideas to life in real teams. Currently exploring exciting AI integrations and building healthcare management platforms.
       </p>
       <a
-  href="/ramchandra_full_stack_dev_resume.pdf"
+  href="/Ramchandra.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className={`inline-block px-5 py-2 rounded-full font-bold mt-4 shadow transition border-none

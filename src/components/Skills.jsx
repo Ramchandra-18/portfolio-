@@ -1,20 +1,38 @@
 import { useTheme } from "../context/ThemeContext";
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaGithub, FaGit, FaSass } from "react-icons/fa";
-import { SiExpress, SiMongodb, SiMysql, SiFigma } from "react-icons/si";
+import { 
+  FaHtml5, FaCss3Alt, FaJsSquare, FaReact, 
+  FaGithub, FaGit, FaJava 
+} from "react-icons/fa";
+
+import { SiMysql, SiFigma, SiSpring } from "react-icons/si";
+
+import { MdDesignServices } from "react-icons/md";
+
+import { GiGearHammer } from "react-icons/gi";
 
 const skills = [
   { name: 'HTML', icon: <FaHtml5 className="text-orange-500 w-12 h-12" /> },
   { name: 'CSS', icon: <FaCss3Alt className="text-blue-500 w-12 h-12" /> },
   { name: 'JavaScript', icon: <FaJsSquare className="text-yellow-400 w-12 h-12" /> },
   { name: 'React', icon: <FaReact className="text-cyan-400 w-12 h-12" /> },
-  { name: 'Node.js', icon: <FaNodeJs className="text-green-500 w-12 h-12" /> },
-  { name: 'Express.js', icon: <SiExpress className="text-gray-300 w-12 h-12" /> },
+
+  // ✅ Java (fixed)
+  { name: 'Java', icon: <FaJava className="text-red-500 w-12 h-12" /> },
+
+  // ✅ Spring (replaced Express)
+  { name: 'Spring', icon: <SiSpring className="text-green-600 w-12 h-12" /> },
+
   { name: 'GitHub', icon: <FaGithub className="text-gray-900 w-12 h-12" /> },
   { name: 'SQL', icon: <SiMysql className="text-blue-700 w-12 h-12" /> },
   { name: 'UI/UX Design', icon: <SiFigma className="text-pink-500 w-12 h-12" /> },
-  { name: 'Web Design', icon: <FaSass className="text-purple-400 w-12 h-12" /> },
+
+  // ✅ Web Design (use Sass icon properly)
+  { name: 'Web Design',icon: <MdDesignServices className="text-purple-500 w-12 h-12" /> },
+
   { name: 'Git', icon: <FaGit className="text-orange-500 w-12 h-12" /> },
-  { name: 'MongoDB', icon: <SiMongodb className="text-green-600 w-12 h-12" /> },
+
+  // ✅ Servlet (no official icon → best alternative)
+  { name: 'Servlet', icon: <GiGearHammer className="text-gray-500 w-12 h-12" /> },
 ];
 
 export default function Skills() {

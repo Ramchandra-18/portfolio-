@@ -1,4 +1,5 @@
 import { useTheme } from "../context/ThemeContext";
+import pdf from "../assets/resume.pdf";
 import { FaMoon, FaSun } from "react-icons/fa";
 
 export default function About() {

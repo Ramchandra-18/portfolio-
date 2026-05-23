@@ -15,7 +15,7 @@ const education = [
     logo: vtu,
     degree: "B.Tech in Computer Science",
     period: "2022 - 2026",
-    grade: "8.02 CGPA",
+    grade: "8.4 CGPA",
   },
   {
     school: "Chandrakant Patil Science PU College",

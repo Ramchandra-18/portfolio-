@@ -175,7 +175,7 @@ export default function About() {
                   </p>
 
                   <h4 className="text-2xl font-bold">
-                    2+ Years
+                    Fresher
                   </h4>
                 </div>
 

@@ -6,6 +6,7 @@ import {
   FaMapMarkerAlt,
   FaPaperPlane,
 } from "react-icons/fa";
+import emailjs from "@emailjs/browser";
 
 import { useTheme } from "../context/ThemeContext";
 

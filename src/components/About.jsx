@@ -124,7 +124,7 @@ export default function About() {
             <div className="mt-10 flex flex-col sm:flex-row gap-5 justify-center lg:justify-start">
 
               <a
-                href="/ramchandra_full_stack_dev_resume.pdf"
+                href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative overflow-hidden px-8 py-4 rounded-2xl bg-gradient-to-r from-violet-500 via-fuchsia-500 to-blue-500 text-white font-semibold shadow-[0_0_40px_rgba(139,92,246,0.35)] hover:scale-105 transition-all duration-500"

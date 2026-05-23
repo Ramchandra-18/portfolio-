@@ -9,7 +9,7 @@ import {
   FaEnvelope,
   FaWhatsapp,
 } from "react-icons/fa";
-import profile from "../assets/profile.jpg"
+import profile from "../assets/profile.jpg";
 
 export default function Home() {
   const { darkMode, setDarkMode } = useTheme();

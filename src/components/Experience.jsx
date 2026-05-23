@@ -1,5 +1,5 @@
 import { useTheme } from "../context/ThemeContext";
-import code from "../assets/Codealpha.png"
+import code from "../assets/codealpha.png";
 import jsp from "../assets/jsp.png"
 
 import {

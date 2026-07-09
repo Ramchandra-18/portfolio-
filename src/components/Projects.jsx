@@ -15,7 +15,7 @@ const projects = [
 
     tech: ["HTML", "CSS", "JavaScript"],
 
-    link: "#",
+    link: "https://github.com/Ramchandra-18/e-virtual_assistant",
 
 
 
@@ -30,7 +30,7 @@ const projects = [
 
     tech: ["React", "Flask", "Supabase", "Tailwind CSS"],
 
-    link: "#",
+    link: "https://github.com/Ramchandra-18/MEDSYNC.git",
 
   
 
@@ -53,11 +53,89 @@ const projects = [
     "Cloudinary"
   ],
 
-  link: "#",
+  link: "https://github.com/Ramchandra-18/BookMyTicket-Movie-Ticket-Booking-System-.git",
 
 
 
   gradient: "from-red-500 via-orange-500 to-yellow-500",
+},
+{
+  title: "FinancePro - Loan Management System",
+
+  description:
+    "A full-stack enterprise loan management platform that streamlines customer onboarding, KYC verification, loan processing, EMI tracking, payment management, and report generation. Built with secure authentication, role-based access control, and scalable microservice-ready architecture.",
+
+  tech: [
+    "React.js",
+    "Tailwind CSS",
+    "Spring Boot",
+    "Spring MVC",
+    "Spring Data JPA",
+    "Hibernate",
+    "PostgreSQL",
+    "JWT",
+    "Apache Kafka",
+    "Docker",
+  ],
+
+  link: "https://github.com/Ramchandra-18/financePro.git", // Replace with your GitHub repository or live demo
+
+  gradient: "from-emerald-500 to-cyan-500",
+},
+{
+  title: "HireNest - Job Portal",
+
+  description:
+    "A full-stack online recruitment platform that connects job seekers, recruiters, and administrators. Features include job posting, resume management, OTP-based email verification, secure authentication, recruiter dashboards, applicant tracking, and cloud-based resume storage using a scalable Spring Boot MVC architecture.",
+
+  tech: [
+    "Java",
+    "Spring Boot",
+    "Spring MVC",
+    "Spring Data JPA",
+    "Hibernate",
+    "Thymeleaf",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "JavaScript",
+    "MySQL",
+    "JavaMailSender",
+    "Cloudinary",
+    "Maven",
+  ],
+
+  link: "https://github.com/Ramchandra-18/HireNest---Job-Portal", // Replace with GitHub repository or live demo
+
+  gradient: "from-blue-500 to-indigo-600",
+},
+{
+  title: "ShopEase - E-Commerce Web Application",
+
+  description:
+    "A full-stack e-commerce platform that enables merchants to manage products and inventory, customers to browse products, add items to cart, place secure online orders, and track deliveries. Features include role-based authentication, payment integration, cloud image storage, and an enterprise-level Spring Boot MVC architecture.",
+
+  tech: [
+    "Java",
+    "Spring Boot",
+    "Spring MVC",
+    "Spring Security",
+    "Spring Data JPA",
+    "Hibernate",
+    "Thymeleaf",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "JavaScript",
+    "MySQL",
+    "Razorpay",
+    "Cloudinary",
+    "Maven",
+  ],
+
+  link: "https://github.com/Ramchandra-18/ShopEase---E-Commerce-Web-Application", // Replace with GitHub repository or live demo
+
+  gradient: "from-orange-500 to-red-500",
 },
 ];
 
@@ -201,6 +279,7 @@ export default function Projects() {
                     {/* View Project */}
                     <a
                       href={proj.link}
+                       target="_blank"
                       className={`group/btn inline-flex items-center gap-3 px-5 sm:px-6 py-3 rounded-2xl bg-gradient-to-r ${proj.gradient} text-white text-sm sm:text-base font-semibold shadow-lg hover:scale-105 transition-all duration-500`}
                     >
                       View Project

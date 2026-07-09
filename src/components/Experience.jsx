@@ -1,6 +1,7 @@
 import { useTheme } from "../context/ThemeContext";
 import code from "../assets/codealpha.png";
 import jsp from "../assets/jsp.png"
+import codemate from "../assets/codemate.jpeg"
 
 import {
   FaBriefcase,
@@ -9,6 +10,20 @@ import {
 } from "react-icons/fa";
 
 const experiences = [
+    {
+    company: "JSpiders Rajajinagar",
+    logo: jsp,
+    role: "Java Full Stack Developer Intern",
+    period: "Present",
+    details: [
+      "Currently undergoing intensive training in Java Full Stack Development.",
+      "Gaining hands-on experience in Core Java, JDBC, Servlets, and Spring Framework.",
+      "Working with HTML, CSS, JavaScript, and React.js for frontend development.",
+      "Learning database integration using MySQL and PostgreSQL.",
+      "Developing real-time applications and improving problem-solving skills.",
+      "Collaborating on mini-projects to strengthen full stack development knowledge.",
+    ],
+  },
   {
     company: "CodeAlpha",
     logo: code,
@@ -21,18 +36,19 @@ const experiences = [
     ],
   },
 
-  {
-    company: "JSpiders Rajajinagar",
-    logo: jsp,
-    role: "Java Full Stack Developer Intern",
-    period: "Present",
+
+    {
+    company: "CodeMates India",
+    logo: codemate,
+    role: "Full Stack Developer",
+    period: "Jan 2025 – Dec 2025",
     details: [
-      "Currently undergoing intensive training in Java Full Stack Development.",
-      "Gaining hands-on experience in Core Java, JDBC, Servlets, and Spring Framework.",
-      "Working with HTML, CSS, JavaScript, and React.js for frontend development.",
-      "Learning database integration using MySQL and PostgreSQL.",
-      "Developing real-time applications and improving problem-solving skills.",
-      "Collaborating on mini-projects to strengthen full stack development knowledge.",
+      "Designed and developed responsive full-stack web applications using React.js, Spring Boot, MySQL, and PostgreSQL.",
+      "Built secure RESTful APIs with JWT authentication, role-based authorization, and CRUD operations.",
+      "Developed scalable business solutions including finance, hospital management, e-commerce, and event management systems.",
+      "Integrated third-party services such as payment gateways, email notifications, and cloud-based media storage.",
+      "Optimized database performance, application security, and backend architecture following MVC and clean coding principles.",
+      "Collaborated with clients to gather requirements, deliver custom software solutions, and deploy production-ready applications.",
     ],
   },
 ];

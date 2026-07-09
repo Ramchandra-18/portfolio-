@@ -5,80 +5,129 @@ import {
   FaCss3Alt,
   FaJsSquare,
   FaReact,
-  FaGithub,
-  FaGit,
   FaJava,
+  FaGitAlt,
+  FaGithub,
+  FaDocker,
 } from "react-icons/fa";
 
 import {
-  SiMysql,
-  SiFigma,
   SiSpring,
+  SiHibernate,
+  SiMysql,
+  SiPostgresql,
+  SiApachekafka,
+  SiKubernetes,
+  SiPostman,
+  SiIntellijidea,
+  SiEclipseide,
+  SiBootstrap,
+  SiThymeleaf,
+  SiApachemaven,
 } from "react-icons/si";
 
-import { MdDesignServices } from "react-icons/md";
+// import { MdDesignServices } from "react-icons/md";
 
+// import { GiGearHammer } from "react-icons/gi";
+import { MdStorage } from "react-icons/md";
 import { GiGearHammer } from "react-icons/gi";
 
 const skills = [
   {
-    name: "HTML",
+    name: "Java",
+    icon: <FaJava className="w-12 h-12 sm:w-14 sm:h-14 text-red-500" />,
+  },
+  {
+    name: "Spring Boot",
+    icon: <SiSpring className="w-12 h-12 sm:w-14 sm:h-14 text-green-500" />,
+  },
+  {
+    name: "Spring MVC",
+    icon: <SiSpring className="w-12 h-12 sm:w-14 sm:h-14 text-green-600" />,
+  },
+  {
+    name: "Hibernate",
+    icon: <SiHibernate className="w-12 h-12 sm:w-14 sm:h-14 text-yellow-600" />,
+  },
+  {
+    name: "JDBC",
+    icon: <MdStorage className="w-12 h-12 sm:w-14 sm:h-14 text-blue-500" />,
+  },
+  {
+    name: "Servlets",
+    icon: <GiGearHammer className="w-12 h-12 sm:w-14 sm:h-14 text-gray-400" />,
+  },
+  {
+    name: "JSP",
+    icon: <GiGearHammer className="w-12 h-12 sm:w-14 sm:h-14 text-gray-500" />,
+  },
+  {
+    name: "React.js",
+    icon: <FaReact className="w-12 h-12 sm:w-14 sm:h-14 text-cyan-400" />,
+  },
+  {
+    name: "HTML5",
     icon: <FaHtml5 className="w-12 h-12 sm:w-14 sm:h-14 text-orange-500" />,
   },
-
   {
-    name: "CSS",
+    name: "CSS3",
     icon: <FaCss3Alt className="w-12 h-12 sm:w-14 sm:h-14 text-blue-500" />,
   },
-
   {
     name: "JavaScript",
     icon: <FaJsSquare className="w-12 h-12 sm:w-14 sm:h-14 text-yellow-400" />,
   },
-
   {
-    name: "React",
-    icon: <FaReact className="w-12 h-12 sm:w-14 sm:h-14 text-cyan-400" />,
+    name: "Bootstrap",
+    icon: <SiBootstrap className="w-12 h-12 sm:w-14 sm:h-14 text-purple-600" />,
   },
-
   {
-    name: "Java",
-    icon: <FaJava className="w-12 h-12 sm:w-14 sm:h-14 text-red-500" />,
+    name: "Thymeleaf",
+    icon: <SiThymeleaf className="w-12 h-12 sm:w-14 sm:h-14 text-green-700" />,
   },
-
   {
-    name: "Spring",
-    icon: <SiSpring className="w-12 h-12 sm:w-14 sm:h-14 text-green-500" />,
+    name: "MySQL",
+    icon: <SiMysql className="w-12 h-12 sm:w-14 sm:h-14 text-blue-600" />,
   },
-
+  {
+    name: "PostgreSQL",
+    icon: <SiPostgresql className="w-12 h-12 sm:w-14 sm:h-14 text-sky-600" />,
+  },
+  {
+    name: "Docker",
+    icon: <FaDocker className="w-12 h-12 sm:w-14 sm:h-14 text-blue-400" />,
+  },
+  {
+    name: "Kubernetes",
+    icon: <SiKubernetes className="w-12 h-12 sm:w-14 sm:h-14 text-blue-500" />,
+  },
+  {
+    name: "Apache Kafka",
+    icon: <SiApachekafka className="w-12 h-12 sm:w-14 sm:h-14 text-white" />,
+  },
+  {
+    name: "Git",
+    icon: <FaGitAlt className="w-12 h-12 sm:w-14 sm:h-14 text-orange-500" />,
+  },
   {
     name: "GitHub",
     icon: <FaGithub className="w-12 h-12 sm:w-14 sm:h-14 text-white" />,
   },
-
   {
-    name: "SQL",
-    icon: <SiMysql className="w-12 h-12 sm:w-14 sm:h-14 text-blue-600" />,
+    name: "Maven",
+    icon: <SiApachemaven className="w-12 h-12 sm:w-14 sm:h-14 text-red-600" />,
   },
-
   {
-    name: "UI/UX",
-    icon: <SiFigma className="w-12 h-12 sm:w-14 sm:h-14 text-pink-500" />,
+    name: "Postman",
+    icon: <SiPostman className="w-12 h-12 sm:w-14 sm:h-14 text-orange-500" />,
   },
-
   {
-    name: "Web Design",
-    icon: <MdDesignServices className="w-12 h-12 sm:w-14 sm:h-14 text-violet-500" />,
+    name: "IntelliJ IDEA",
+    icon: <SiIntellijidea className="w-12 h-12 sm:w-14 sm:h-14 text-pink-500" />,
   },
-
   {
-    name: "Git",
-    icon: <FaGit className="w-12 h-12 sm:w-14 sm:h-14 text-orange-500" />,
-  },
-
-  {
-    name: "Servlet",
-    icon: <GiGearHammer className="w-12 h-12 sm:w-14 sm:h-14 text-gray-400" />,
+    name: "Eclipse",
+    icon: <SiEclipseide className="w-12 h-12 sm:w-14 sm:h-14 text-indigo-500" />,
   },
 ];
 

@@ -11,7 +11,7 @@ const experiences = [
   {
     company: "JSpiders Rajajinagar",
     logo: jsp,
-    role: "Java Full Stack Developer Intern",
+    role: " Stack Developer Trainee",
     period: "Present",
     status: "Currently Learning",
     number: "01",
